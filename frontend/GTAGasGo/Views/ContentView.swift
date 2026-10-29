@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  PumpScout
-//
-//  Created by Damon Lam on 2026-04-20.
-//
 
 import SwiftUI
 
@@ -75,7 +69,7 @@ struct ContentView: View {
                     Color.clear
                 }
             }
-            .navigationTitle("PumpScout")
+            .navigationTitle("GTAGasGo")
             .navigationBarTitleDisplayMode(.inline)
             .task {
                 await service.loadData()
