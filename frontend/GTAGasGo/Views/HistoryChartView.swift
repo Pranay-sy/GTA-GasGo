@@ -1,9 +1,4 @@
-//
-//  HistoryChartView.swift
-//  PumpScout
-//
-//  Created by Damon Lam on 2026-04-21.
-//
+
 
 import SwiftUI
 import Charts
