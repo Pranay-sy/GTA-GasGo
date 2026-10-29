@@ -35,7 +35,7 @@ Every time you hit refresh, the backend uses **Playwright** to render the CityNe
 ## Project Structure
 
 ```
-GTA GasGo/
+GTAGasGo/
 ├── backend/
 │   └── app/
 │       ├── main.py        # FastAPI app, routes, startup
@@ -46,7 +46,7 @@ GTA GasGo/
 │       ├── services.py    # Business logic, DB queries, summary builder
 │       └── schemas.py     # Pydantic response models
 └── frontend/
-    └── GTA GasGo/         # Xcode project (Swift / SwiftUI)
+    └── GTAGasGo/         # Xcode project (Swift / SwiftUI)
 ```
 ---
 
@@ -58,8 +58,8 @@ GTA GasGo/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Pranay-sy/GTA GasGo.git
-cd GTA GasGo/backend
+git clone https://github.com/Pranay-sy/GTAGasGo.git
+cd GTAGasGo/backend
 ```
 
 ### 2. Create and activate a virtual environment
@@ -134,7 +134,7 @@ curl http://127.0.0.1:8000/summary
 
 ## iOS App Setup
 
-1. Open `frontend/GTA GasGo/GTA GasGo.xcodeproj` in Xcode.
+1. Open `frontend/GTAGasGo/GTAGasGo.xcodeproj` in Xcode.
 2. Make sure the backend is running locally (see above).
 3. Update the base URL in the app to point to your machine's local IP (you can find this by running ipconfig in your terminal), if running on a physical device, or keep `http://127.0.0.1:8000` for the simulator.
 4. Build and run on your simulator or device.
